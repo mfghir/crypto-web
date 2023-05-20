@@ -1,0 +1,20 @@
+section input {
+  margin: 20px 0;
+  outline: none;
+  border: 2px solid silver;
+  width: 250px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  color: #444;
+}
+section input:focus {
+    border: 2px solid royalblue;
+    box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+
+.main {
+  border: 2px solid silver;
+  margin: 50px auto;
+  border-radius: 10px;
+  width: fit-content;
+}

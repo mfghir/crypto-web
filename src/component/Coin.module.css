@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid silver;
+  padding:20px 0;
+}
+.main:last-child {
+  border: none;
+}
+.main img {
+  width: 50px;
+  text-align: left;
+}
+
+.main span {
+    display: block;
+  font-weight: 500;
+  /* text-align: left; */
+  /* padding: 20px; */
+  margin: 0 40px;
+  width: 70px;
+  text-align: left;
+}
+
+.name,
+.symbol,
+.price,
+.marketCap {
+  /* margin: 0 40px;
+  /* width: 200px; */
+  /* width: 70px; */
+  /* text-align: left; */ 
+}
+
+.greenPriceChange {
+  color: #16a34a;
+  /* width: 50px; */
+}
+.redPriceChange {
+  color: red;
+  /* width: 50px; */
+
+}
